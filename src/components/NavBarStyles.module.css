@@ -1,0 +1,56 @@
+.navBar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: var(--navBarHeight);
+  width: 100%;
+  background-color: var(--primary-actions);
+  box-shadow: var(--dropShadow);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+  color: var(--cards);
+  z-index: 1000;
+}
+
+.logoPart {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  color: whtie;
+}
+
+.logoPart img {
+  height: 100%;
+}
+
+.logoPart h1 {
+  font-size: var(--rem2);
+}
+
+.navBtnPart {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: var(--rem1-5);
+  list-style: none;
+}
+
+.navBtnPart li {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: all 0.5s ease;
+}
+
+.navBtnPart li a {
+  text-decoration: none;
+  color: var(--cards);
+}
+
+.navBtnPart li:hover {
+  background-color: var(--feedback);
+}

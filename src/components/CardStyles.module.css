@@ -1,0 +1,32 @@
+.card {
+  height: 14rem;
+  width: 12rem;
+  background-color: var(--cards);
+  border: 1px solid white;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  box-shadow: var(--dropShadow);
+  text-decoration: none;
+  transition: all 0.4s ease;
+}
+
+.card:hover {
+  scale: 1.07;
+}
+
+.card img {
+  height: 80%;
+  width: 100%;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.card h3 {
+  height: 20%;
+  font-size: var(--rem1);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0 0 0.5rem 0.5rem;
+}

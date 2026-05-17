@@ -1,0 +1,35 @@
+.footer {
+  margin-top: 1rem;
+  height: 15rem;
+  background-color: var(--primary-actions);
+  box-shadow: var(--topShadow);
+  display: flex;
+  color: var(--cards);
+}
+
+.footerLogo {
+  width: 20%;
+  background-color: var(--secondary-actions);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footerLogo img {
+  height: 90%;
+}
+
+.footerInfo {
+  width: 80%;
+  padding: 1rem;
+  text-align: center;
+}
+
+.footerInfo a {
+  text-decoration: none;
+  color: var(--highlights);
+}
+
+.contactTitle {
+  margin-top: 2rem;
+}

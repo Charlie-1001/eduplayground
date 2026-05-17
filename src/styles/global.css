@@ -1,0 +1,53 @@
+:root {
+  /* colors */
+  --background: #EFE9AE;
+  --cards: #FFF9EC;
+  --primary-actions: #4c1a57;
+  --secondary-actions: #0F5257;
+  --highlights: #F18805;
+  --feedback: #DA667B;
+  /* dimensions */
+  --navBarHeight: 4rem;
+  /* font sizes and styles */
+  --rem1: 1rem;
+  --rem1-5: 1.5rem;
+  --rem2: 2rem;
+  --rem2-5: 2.5rem;
+  --rem3: 3rem;
+  --rem4: 4rem;
+  --rem5: 5rem;
+  --rem6: 6rem;
+  /* shadow effects */
+  --dropShadow: 4px 4px 5px rgba(0, 0, 0, 0.712);
+  --topShadow: 0 -4px 5px rgba(0, 0, 0, 0.712);
+}
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  font-size: 1rem;
+  min-height: 100vh;
+  overflow-y: auto;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--background);
+}
+
+/* for the pages */
+section {
+  height: calc(100vh - var(--navBarHeight));
+  margin-top: var(--navBarHeight);
+}
+
+button {
+  cursor: pointer;
+}

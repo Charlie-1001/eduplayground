@@ -1,0 +1,22 @@
+.aboutPage {
+  padding: 1rem;
+}
+
+.aboutPage h1 {
+  font-size: var(--rem2-5);
+  color: var(--primary-actions);
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.textContainer {
+  height: 80%;
+  padding: 0 2rem;
+  overflow-y: auto;
+}
+
+.textContainer p {
+  font-size: var(--rem1-5);
+  text-indent: 3rem;
+  margin-bottom: 1rem;
+}
