@@ -34,19 +34,19 @@ export const galleryData = [
         id: "flashcards",
         name: "Flashcards",
         image: flashcardImg,
-        link: "/eduplayground/gameSources/phonics2/flashcards/index.html",
+        link: import.meta.env.Base_URL + "gameSources/phonics2/flashcards/index.html",
       },
       {
         id: "soundSpelling",
         name: "Sound Spelling",
         image: soundSpellingImg,
-        link: "/eduplayground/gameSources/phonics2/sound-spelling/index.html",
+        link: import.meta.env.Base_URL + "gameSources/phonics2/sound-spelling/index.html",
       },
       {
         id: "pictureSpelling",
         name: "Picture Spelling",
         image: pictureSpellingImg,
-        link: "/eduplayground/gameSources/phonics2/picture-spelling/index.html",
+        link: import.meta.env.Base_URL + "gameSources/phonics2/picture-spelling/index.html",
       },
     ]
   },
@@ -68,19 +68,19 @@ export const galleryData = [
         id: "flashcards",
         name: "Flashcards",
         image: flashcardImg,
-        link: "/eduplayground/gameSources/footprints1/flashcards/index.html",
+        link: import.meta.env.Base_URL + "gameSources/footprints1/flashcards/index.html",
       },
       {
         id: "vocabGame",
         name: "Vocabulary Game",
         image: pictureSpellingImg,
-        link: "/eduplayground/gameSources/footprints1/vocabulary/index.html",
+        link: import.meta.env.Base_URL + "gameSources/footprints1/vocabulary/index.html",
       },
       {
         id: "gramarGame",
         name: "Grammar Game",
         image: soundSpellingImg,
-        link: "/eduplayground/gameSources/footprints1/grammar/index.html",
+        link: import.meta.env.Base_URL + "gameSources/footprints1/grammar/index.html",
       },
     ]
   },
@@ -101,7 +101,7 @@ export const galleryData = [
         id: "myCollection",
         name: "My Collection",
         image: myCollectionImg,
-        link: "/eduplayground/gameSources/my-collection/index.html",
+        link: import.meta.env.Base_URL + "gameSources/my-collection/index.html",
       }
     ]
   },
@@ -123,31 +123,31 @@ export const galleryData = [
         id: "npsGenius",
         name: "NPS Genius",
         image: npsGeniusImg,
-        link: "/eduplayground/gameSources/nps-genius/index.html",
+        link: import.meta.env.Base_URL + "gameSources/nps-genius/index.html",
       },
       {
         id: "lowerQuiz",
         name: "Lower Level Quiz",
         image: lowerQuizImg,
-        link: "/eduplayground/gameSources/quiz-games/lowerLevel.html",
+        link: import.meta.env.Base_URL + "gameSources/quiz-games/lowerLevel.html",
       },
       {
         id: "higherQuiz",
         name: "Higher Level Quiz",
         image: higherQuizImg,
-        link: "/eduplayground/gameSources/quiz-games/higherLevel.html",
+        link: import.meta.env.Base_URL + "gameSources/quiz-games/higherLevel.html",
       },
       {
         id: "starCollector",
         name: "Star Collector Game",
         image: starCollectorImg,
-        link: "/eduplayground/gameSources/star-collector-game/index.html",
+        link: import.meta.env.Base_URL + "gameSources/star-collector-game/index.html",
       },
       {
         id: "mouseTraining",
         name: "Mouse Training Game",
         image: mouseTrainingImg,
-        link: "/eduplayground/gameSources/mouse-training-game/index.html",
+        link: import.meta.env.Base_URL + "gameSources/mouse-training-game/index.html",
       }
     ]
   },
