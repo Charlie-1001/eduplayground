@@ -5,11 +5,13 @@ import soundSpellingImg from '../assets/images/grammar.png';
 import pictureSpellingImg from '../assets/images/vocabulary.png';
 // footprints 1
 import footprints1Img from '../assets/images/footprints1.png';
+// ICT games
+import ictGamesImg from '../assets/images/ict-games.png';
 // motivation meter
-import gradingImg from '../assets/images/grading-activities.png';
+import motivationMeterImg from '../assets/images/motivation-meter.png';
 import myCollectionImg from '../assets/images/my-collection.png';
-// mini games
-import miniGameImg from '../assets/images/mini-games.png';
+// fun games
+import funGamesImg from '../assets/images/fun-games.png';
 import npsGeniusImg from '../assets/images/nps-genius.png';
 import lowerQuizImg from '../assets/images/lower-quiz.png';
 import higherQuizImg from '../assets/images/higher-quiz.png';
@@ -85,11 +87,33 @@ export const galleryData = [
     ]
   },
 
+  // ICT games
+  {
+    id: 'ictGames',
+    name: 'ICT Games',
+    coverImg: ictGamesImg,
+    description: `ICT Games is a set of interactive mini-games designed to help learners practice basic
+    computer skills in a simple, hands-on way. It focuses on foundational ICT lessons such as using
+    a mouse, navigating a computer, and understanding how to properly start up and shut down a system.
+    Each game is built as a guided simulation or practice activity, allowing learners to develop
+    confidence with everyday computer operations before moving on to more advanced digital skills.
+    New activities will be added over time to match classroom lessons and expand practical ICT
+    understanding step by step.`,
+    games: [
+      {
+        id: "mouseTraining",
+        name: "Mouse Training Game",
+        image: mouseTrainingImg,
+        link: import.meta.env.BASE_URL + "gameSources/mouse-training-game/index.html",
+      }
+    ]
+  },
+
   // Grading Activities
   {
     id: 'motivationMeter',
     name: 'Motivation Meter',
-    coverImg: gradingImg,
+    coverImg: motivationMeterImg,
     description: `Motivation Meter is a grading activity designed to help track learning progress in
     a simple and engaging way. Instead of traditional scoring methods, it uses interactive game-based
     activities to reflect a learner’s effort, participation, and understanding. Each task contributes
@@ -106,11 +130,11 @@ export const galleryData = [
     ]
   },
 
-  // Mini games
+  // Fun games
   {
-    id: 'miniGames',
-    name: 'Mini Games',
-    coverImg: miniGameImg,
+    id: 'funGames',
+    name: 'Fun Games',
+    coverImg: funGamesImg,
     description: `Mini Educational Games are short, focused activities designed to reinforce key
     learning concepts in a quick and engaging way. Each game targets a specific skill such as
     vocabulary, spelling, reading comprehension, or basic problem-solving, allowing learners to
@@ -143,12 +167,6 @@ export const galleryData = [
         image: starCollectorImg,
         link: import.meta.env.BASE_URL + "gameSources/star-collector-game/index.html",
       },
-      {
-        id: "mouseTraining",
-        name: "Mouse Training Game",
-        image: mouseTrainingImg,
-        link: import.meta.env.BASE_URL + "gameSources/mouse-training-game/index.html",
-      }
     ]
   },
 ]
