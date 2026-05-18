@@ -8,12 +8,19 @@ function Footer() {
         <img src={pageLogo} alt="EduPlayground logo" />
       </div>
       <div className={styles.footerInfo}>
-        <h3>©{new Date().getFullYear()} EduPlayground. All rights reserved.</h3>
-        <p>Developed by: Charlie Sparks</p>
-        <h3 className={styles.contactTitle}>Contact</h3>
-        <p>Email: <a href='https://mail.google.com/mail/?view=cm&fs=1&to=piscesmai1001@gmail.com&su=EduPlayground Inquiry'>
-          piscesmai1001@gmail.com
-        </a></p>
+        {/* contact part */}
+        <div>
+          <h3>Contact</h3>
+          <p>Email: <a href='https://mail.google.com/mail/?view=cm&fs=1&to=piscesmai1001@gmail.com&su=EduPlayground Inquiry'>
+            piscesmai1001@gmail.com
+          </a></p>
+        </div>
+
+        {/* copyright part */}
+        <div>
+          <p >©{new Date().getFullYear()} EduPlayground. All rights reserved.</p>
+          <p>Developed by: Charlie Sparks</p>
+        </div>
       </div>
     </footer>
   )

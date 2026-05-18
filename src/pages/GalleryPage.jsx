@@ -24,7 +24,7 @@ function GalleryItems() {
 function Gallery() {
   return(
     <section className={styles.gallery}>
-      <h1>Pick up the subject.</h1>
+      <h1>Pick a category</h1>
       <GalleryItems />
     </section>
   )

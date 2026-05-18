@@ -19,7 +19,7 @@ function SelectionPage() {
       </aside>
       {/* The games for the selected subject */}
       <div className={styles.activityContainer}>
-        <h2>Choose your game.</h2>
+        <h2>Choose your game</h2>
         <div className={styles.activities}>
           {
             selectedItem.games.map(game => (
