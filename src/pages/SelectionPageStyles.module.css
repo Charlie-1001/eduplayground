@@ -23,6 +23,8 @@
 
 .sideContent p {
   padding: 0.5rem;
+  height: 45%;
+  overflow-y: auto;
 }
 
 /* the right side games container */
