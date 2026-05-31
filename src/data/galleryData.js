@@ -17,6 +17,7 @@ import lowerQuizImg from '../assets/images/lower-quiz.png';
 import higherQuizImg from '../assets/images/higher-quiz.png';
 import starCollectorImg from '../assets/images/star-collector.png';
 import mouseTrainingImg from '../assets/images/mouse-training-game.png';
+import powerOnOffImg from '../assets/images/power-on-off-thumbnail.png';
 
 export const galleryData = [
   // Oxford Phonics World 2
@@ -105,7 +106,13 @@ export const galleryData = [
         name: "Mouse Training Game",
         image: mouseTrainingImg,
         link: import.meta.env.BASE_URL + "gameSources/mouse-training-game/index.html",
-      }
+      },
+      {
+        id: "powerOnOff",
+        name: "Power On/Off",
+        image: powerOnOffImg,
+        link: import.meta.env.BASE_URL + "gameSources/power-on-off/index.html",
+      },
     ]
   },
 
