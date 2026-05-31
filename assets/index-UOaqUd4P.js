@@ -26,7 +26,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
     Each game is built as a guided simulation or practice activity, allowing learners to develop
     confidence with everyday computer operations before moving on to more advanced digital skills.
     New activities will be added over time to match classroom lessons and expand practical ICT
-    understanding step by step.`,games:[{id:`mouseTraining`,name:`Mouse Training Game`,image:`/eduplayground/assets/mouse-training-game-Dc8BeQoK.png`,link:`/eduplayground/gameSources/mouse-training-game/index.html`}]},{id:`motivationMeter`,name:`Motivation Meter`,coverImg:`/eduplayground/assets/motivation-meter-DKXCneLb.png`,description:`Motivation Meter is a grading activity designed to help track learning progress in
+    understanding step by step.`,games:[{id:`mouseTraining`,name:`Mouse Training Game`,image:`/eduplayground/assets/mouse-training-game-Dc8BeQoK.png`,link:`/eduplayground/gameSources/mouse-training-game/index.html`},{id:`powerOnOff`,name:`Power On/Off`,image:`/eduplayground/assets/power-on-off-thumbnail--zZCoyFA.png`,link:`/eduplayground/gameSources/power-on-off/index.html`}]},{id:`motivationMeter`,name:`Motivation Meter`,coverImg:`/eduplayground/assets/motivation-meter-DKXCneLb.png`,description:`Motivation Meter is a grading activity designed to help track learning progress in
     a simple and engaging way. Instead of traditional scoring methods, it uses interactive game-based
     activities to reflect a learner’s effort, participation, and understanding. Each task contributes
     to a visual “meter” that shows progress over time, helping students stay motivated and aware of
