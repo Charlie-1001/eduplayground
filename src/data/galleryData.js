@@ -18,6 +18,8 @@ import higherQuizImg from '../assets/images/higher-quiz.png';
 import starCollectorImg from '../assets/images/star-collector.png';
 import mouseTrainingImg from '../assets/images/mouse-training-game.png';
 import powerOnOffImg from '../assets/images/power-on-off-thumbnail.png';
+// grid reveal
+import gridRevealImg from '../assets/images/grid-reveal.png';
 
 export const galleryData = [
   // Oxford Phonics World 2
@@ -151,6 +153,12 @@ export const galleryData = [
     over time.`,
     games: [
       {
+        id: "gridReveal",
+        name: "Grid Reveal",
+        image: gridRevealImg,
+        link: import.meta.env.BASE_URL + "gameSources/gridReveal/index.html",
+      },
+      {
         id: "npsGenius",
         name: "NPS Genius",
         image: npsGeniusImg,
@@ -176,4 +184,5 @@ export const galleryData = [
       },
     ]
   },
+
 ]
