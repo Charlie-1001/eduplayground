@@ -156,7 +156,7 @@ export const galleryData = [
         id: "gridReveal",
         name: "Grid Reveal",
         image: gridRevealImg,
-        link: import.meta.env.BASE_URL + "gameSources/gridReveal/index.html",
+        link: "https://charlie-1001.github.io/gridReveal/",
       },
       {
         id: "npsGenius",
