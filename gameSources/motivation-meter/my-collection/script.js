@@ -120,8 +120,8 @@ function addOrRemoveItems(type, itemPanel, scoreNum) {
   }
 
   if (type === "diamond") {
-    badItem = "assets/images/bad-diamond.png";
     goodItem = "assets/images/good-diamond.png";
+    badItem = "assets/images/bad-diamond.png";
     bestItem = "assets/images/best-diamond.png";
   }
 
