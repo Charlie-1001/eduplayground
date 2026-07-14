@@ -5,6 +5,9 @@ import soundSpellingImg from '../assets/images/grammar.png';
 import pictureSpellingImg from '../assets/images/vocabulary.png';
 // footprints 1
 import footprints1Img from '../assets/images/footprints1.png';
+// ICT lessons
+import ictLessonsImg from '../assets/images/ict-lessons.png';
+import ictFlashcardsImg from '../assets/images/ict-flashcards.png';
 // ICT games
 import ictGamesImg from '../assets/images/ict-games.png';
 // motivation meter
@@ -90,6 +93,28 @@ export const galleryData = [
     ]
   },
 
+  // ICT lessons
+  {
+    id: 'ictLessons',
+    name: 'ICT Lessons',
+    coverImg: ictLessonsImg,
+    description: `ICT Lessons is a collection of educational resources designed to help learners build
+    essential computer and digital skills through structured lessons and interactive activities.
+    It covers fundamental ICT topics such as computer hardware, software, file management, internet
+    skills, and basic digital concepts. Each lesson is created to support classroom learning by
+    providing clear explanations, visual materials, and practical activities that make technology
+    easier to understand. New lessons and resources will be added over time to support learners as
+    they develop their ICT knowledge step by step.`,
+    games: [
+      {
+        id: "ictFlashcards",
+        name: "ICT Flashcards",
+        image: ictFlashcardsImg,
+        link: import.meta.env.BASE_URL + "gameSources/ict-lessons/ict-flashcards/index.html",
+      },
+    ]
+  },
+
   // ICT games
   {
     id: 'ictGames',
@@ -107,13 +132,13 @@ export const galleryData = [
         id: "mouseTraining",
         name: "Mouse Training Game",
         image: mouseTrainingImg,
-        link: import.meta.env.BASE_URL + "gameSources/mouse-training-game/index.html",
+        link: import.meta.env.BASE_URL + "gameSources/ict-games/mouse-training-game/index.html",
       },
       {
         id: "powerOnOff",
         name: "Power On/Off",
         image: powerOnOffImg,
-        link: import.meta.env.BASE_URL + "gameSources/power-on-off/index.html",
+        link: import.meta.env.BASE_URL + "gameSources/ict-games/power-on-off/index.html",
       },
     ]
   },
@@ -134,7 +159,7 @@ export const galleryData = [
         id: "myCollection",
         name: "My Collection",
         image: myCollectionImg,
-        link: import.meta.env.BASE_URL + "gameSources/my-collection/index.html",
+        link: import.meta.env.BASE_URL + "gameSources/motivation-meter/my-collection/index.html",
       }
     ]
   },
@@ -162,25 +187,25 @@ export const galleryData = [
         id: "npsGenius",
         name: "NPS Genius",
         image: npsGeniusImg,
-        link: import.meta.env.BASE_URL + "gameSources/nps-genius/index.html",
+        link: import.meta.env.BASE_URL + "gameSources/fun-games/nps-genius/index.html",
       },
       {
         id: "lowerQuiz",
         name: "Lower Level Quiz",
         image: lowerQuizImg,
-        link: import.meta.env.BASE_URL + "gameSources/quiz-games/lowerLevel.html",
+        link: import.meta.env.BASE_URL + "gameSources/fun-games/quiz-games/lowerLevel.html",
       },
       {
         id: "higherQuiz",
         name: "Higher Level Quiz",
         image: higherQuizImg,
-        link: import.meta.env.BASE_URL + "gameSources/quiz-games/higherLevel.html",
+        link: import.meta.env.BASE_URL + "gameSources/fun-games/quiz-games/higherLevel.html",
       },
       {
         id: "starCollector",
         name: "Star Collector Game",
         image: starCollectorImg,
-        link: import.meta.env.BASE_URL + "gameSources/star-collector-game/index.html",
+        link: import.meta.env.BASE_URL + "gameSources/fun-games/star-collector-game/index.html",
       },
     ]
   },

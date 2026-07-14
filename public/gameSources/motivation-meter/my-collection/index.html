@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Collection</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <!-- The game title -->
+     <h1 class="game-title">My Collection</h1>
+
+    <!-- The starting page -->
+     <div class="start-page">
+      <div class="input-group">
+        <label class="input-label" for="numOfTeams">Number of Teams:</label>
+        <input type="number" id="numOfTeams" min="1" max="4">
+      </div>
+      <div class="input-group">
+        <label class="input-label" for="typeOfCollection">Collection Type:</label>
+        <select name="collection-type" id="typeOfCollection">
+          <option value="star">Star</option>
+          <option value="coin">Coin</option>
+          <option value="diamond">Diamond</option>
+        </select>
+      </div>
+      <button id="start-btn">START</button>
+     </div>
+
+    <!-- The game page -->
+     <div class="game-container hidden">
+      <button id="doneBtn">Done</button>
+      <!-- The teams are dinamically created here from Javascript -->
+     </div>
+
+    <!-- The summary page -->
+     <div class="summary-container hidden"></div>
+
+    <!-- The script section -->
+    <script src="script.js"></script>
+  </body>
+</html>
