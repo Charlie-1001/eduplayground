@@ -34,3 +34,7 @@
   text-decoration: none;
   color: var(--highlights);
 }
+
+.footerInfo a:hover {
+  text-decoration: underline;
+}
