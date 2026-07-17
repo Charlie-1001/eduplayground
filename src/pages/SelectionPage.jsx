@@ -13,7 +13,7 @@ function SelectionPage() {
     <section className={styles.selectionPage}>
       {/* The side section introducing the subject */}
       <aside className={styles.sideContent}>
-        <img src={selectedItem.coverImg} alt={selectedItem.name} />
+        <img src={selectedItem.coverImg} loading='lazy' alt={selectedItem.name} />
         <h2>{selectedItem.name}</h2>
         <p>{selectedItem.description}</p>
       </aside>
