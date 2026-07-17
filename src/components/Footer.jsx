@@ -11,9 +11,13 @@ function Footer() {
         {/* contact part */}
         <div>
           <h3>Contact</h3>
-          <p>Email: <a href='https://mail.google.com/mail/?view=cm&fs=1&to=piscesmai1001@gmail.com&su=EduPlayground Inquiry'>
-            piscesmai1001@gmail.com
-          </a></p>
+          <p>
+            Email: <a href='https://mail.google.com/mail/?view=cm&fs=1&to=piscesmai1001@gmail.com&su=EduPlayground Inquiry'>
+            piscesmai1001@gmail.com</a>
+          </p>
+          <p>
+            Viber: <a href="viber://chat?number=%2B959421247184">Chat on Viber</a>
+          </p>
         </div>
 
         {/* copyright part */}
