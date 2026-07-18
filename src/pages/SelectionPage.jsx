@@ -30,7 +30,6 @@ function SelectionPage() {
                   imageSrc={game.image}
                 />
               </a>
-
             ))
           }
         </div>
