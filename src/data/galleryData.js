@@ -3,6 +3,7 @@ import phonics2Img from '../assets/images/phonics2.png';
 import flashcardImg from '../assets/images/flashcards.png';
 import soundSpellingImg from '../assets/images/grammar.png';
 import pictureSpellingImg from '../assets/images/vocabulary.png';
+import rhymingWordsImg from '../assets/images/rhyming-words.png';
 // footprints 1
 import footprints1Img from '../assets/images/footprints1.png';
 // ICT lessons
@@ -55,6 +56,12 @@ export const galleryData = [
         name: "Picture Spelling",
         image: pictureSpellingImg,
         link: "https://charlie-1001.github.io/phonics-2/picture-spelling/index.html",
+      },
+      {
+        id: "rhymingWords",
+        name: "Rhyming Words",
+        image: rhymingWordsImg,
+        link: "https://charlie-1001.github.io/phonics-2/rhyming-sounds/index.html",
       },
     ]
   },
