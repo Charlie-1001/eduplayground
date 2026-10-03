@@ -22,6 +22,7 @@ import higherQuizImg from '../assets/images/higher-quiz.png';
 import starCollectorImg from '../assets/images/star-collector.png';
 import mouseTrainingImg from '../assets/images/mouse-training-game.png';
 import powerOnOffImg from '../assets/images/power-on-off-thumbnail.png';
+import keyboardLayoutRecognition from '../assets/images/keyboard-layout-recognition.png';
 // grid reveal
 import gridRevealImg from '../assets/images/grid-reveal.png';
 
@@ -146,6 +147,12 @@ export const galleryData = [
         name: "Power On/Off",
         image: powerOnOffImg,
         link: "https://charlie-1001.github.io/power-on-off/",
+      },
+      {
+        id: "keyboardLayoutRecognition",
+        name: "keyboard Layout Recognition",
+        image: keyboardLayoutRecognition,
+        link: "https://charlie-1001.github.io/announcement/keyboard-layout-recognition.html",
       },
     ]
   },
